@@ -1,0 +1,12 @@
+[uwsgi]
+chdir=/home/pi/Desktop/myweb/FileShare
+module=FileShare.wsgi:application
+master=True
+processes=4
+harakiri=60
+max_requests=5000
+socket=127.0.0.1:8001
+
+pidfile=/home/pi/Desktop/myweb/uwsgis/master.pid
+vacuum=True
+daemonize=/home/pi/Desktop/myweb/uwsgis/FileShare.log

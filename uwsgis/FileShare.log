@@ -1,0 +1,1654 @@
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 19:15:03 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/nginx_test
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 19:16:04 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/nginx_test
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 19:24:50 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1881bd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1881bd8 pid: 4475 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4475)
+spawned uWSGI worker 1 (pid: 4476, cores: 1)
+spawned uWSGI worker 2 (pid: 4477, cores: 1)
+spawned uWSGI worker 3 (pid: 4478, cores: 1)
+spawned uWSGI worker 4 (pid: 4479, cores: 1)
+Not Found: /favicon.ico
+[pid: 4477|app: 0|req: 1/1] 192.168.43.117 () {44 vars in 714 bytes} [Sat Oct  5 11:24:54 2019] GET /favicon.ico => generated 1975 bytes in 146 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4477|app: 0|req: 2/2] 192.168.43.117 () {40 vars in 708 bytes} [Sat Oct  5 11:24:58 2019] GET / => generated 16348 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+[pid: 4476|app: 0|req: 1/3] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:25:00 2019] GET / => generated 16348 bytes in 132 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+[pid: 4477|app: 0|req: 3/4] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:25:01 2019] GET / => generated 16348 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+[pid: 4477|app: 0|req: 4/5] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:25:22 2019] GET / => generated 16348 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+[pid: 4477|app: 0|req: 5/6] 192.168.43.117 () {40 vars in 708 bytes} [Sat Oct  5 11:48:36 2019] GET / => generated 16348 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 1/7] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:38 2019] GET / => generated 2428 bytes in 154 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4477|app: 0|req: 6/8] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:42 2019] GET / => generated 16348 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 2/9] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:43 2019] GET / => generated 2428 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 3/10] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:44 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 4/11] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:45 2019] GET / => generated 2428 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4478|app: 0|req: 1/12] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:48:45 2019] GET / => generated 2428 bytes in 170 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 5/13] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:53 2019] GET / => generated 2428 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4478|app: 0|req: 2/14] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:55 2019] GET / => generated 2428 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 6/15] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:56 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 7/16] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:56 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 8/17] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4478|app: 0|req: 3/18] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 9/19] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 10/20] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 11/21] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 12/22] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 4479|app: 0|req: 13/23] 192.168.43.117 () {42 vars in 739 bytes} [Sat Oct  5 11:50:57 2019] GET / => generated 2428 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4478|app: 0|req: 4/24] 192.168.43.117 () {40 vars in 718 bytes} [Sat Oct  5 11:51:03 2019] GET /admin => generated 0 bytes in 6 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 4479|app: 0|req: 14/25] 192.168.43.117 () {40 vars in 720 bytes} [Sat Oct  5 11:51:03 2019] GET /admin/ => generated 0 bytes in 73 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 4479|app: 0|req: 15/26] 192.168.43.117 () {40 vars in 757 bytes} [Sat Oct  5 11:51:03 2019] GET /admin/login/?next=/admin/ => generated 1819 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 16/27] 192.168.43.117 () {42 vars in 807 bytes} [Sat Oct  5 11:51:12 2019] GET /index => generated 74108 bytes in 177 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 5/28] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:52 2019] GET /index => generated 74243 bytes in 208 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 17/29] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:53 2019] GET /index => generated 74243 bytes in 141 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 6/30] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:53 2019] GET /index => generated 74243 bytes in 142 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 18/31] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:54 2019] GET /index => generated 74243 bytes in 108 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 19/32] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:56 2019] GET /index => generated 74243 bytes in 172 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 7/33] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:57 2019] GET /index => generated 1957 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 20/34] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:52:59 2019] GET /index => generated 74243 bytes in 167 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 21/35] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:53:00 2019] GET /index => generated 74243 bytes in 172 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 22/36] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:53:00 2019] GET /index => generated 74243 bytes in 118 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 23/37] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:53:01 2019] GET /index => generated 74243 bytes in 168 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 24/38] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:53:02 2019] GET /index => generated 74243 bytes in 169 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 25/39] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:56:17 2019] GET /index => generated 74243 bytes in 199 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /download
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 26, in download
+    filepath_='/home/pi/Desktop/static'+filepath
+TypeError: can only concatenate str (not "NoneType") to str
+[pid: 4478|app: 0|req: 7/40] 192.168.43.117 () {42 vars in 813 bytes} [Sat Oct  5 11:56:21 2019] GET /download => generated 57632 bytes in 154 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('G:/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 26/41] 192.168.43.117 () {42 vars in 807 bytes} [Sat Oct  5 11:57:13 2019] GET /files => generated 57092 bytes in 116 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 27/42] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:57:56 2019] GET /files => generated 57269 bytes in 152 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4478|app: 0|req: 8/43] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:57:57 2019] GET /files => generated 57269 bytes in 148 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 28/44] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:25 2019] GET /files => generated 57269 bytes in 188 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /files
+[pid: 4477|app: 0|req: 8/45] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:26 2019] GET /files => generated 1957 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 29/46] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:27 2019] GET /files => generated 57269 bytes in 160 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /files
+[pid: 4477|app: 0|req: 9/47] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:28 2019] GET /files => generated 1957 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 30/48] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:29 2019] GET /files => generated 57269 bytes in 156 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /files
+[pid: 4477|app: 0|req: 10/49] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:52 2019] GET /files => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /files
+[pid: 4477|app: 0|req: 11/50] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:54 2019] GET /files => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4478|app: 0|req: 9/51] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:55 2019] GET /files => generated 57269 bytes in 155 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4478|app: 0|req: 10/52] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:56 2019] GET /files => generated 57269 bytes in 154 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4478|app: 0|req: 11/53] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:58:57 2019] GET /files => generated 57269 bytes in 153 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 12/54] 192.168.43.117 () {42 vars in 807 bytes} [Sat Oct  5 11:59:05 2019] GET /index => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4476|app: 0|req: 2/55] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:07 2019] GET /index => generated 1957 bytes in 33 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 13/56] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:08 2019] GET /index => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 14/57] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:09 2019] GET /index => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4476|app: 0|req: 3/58] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:09 2019] GET /index => generated 1957 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Sat Oct  5 11:59:09 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /index (ip 192.168.43.117) !!!
+Sat Oct  5 11:59:09 2019 - uwsgi_response_write_body_do(): Broken pipe [core/writer.c line 341] during GET /index (192.168.43.117)
+OSError: write error
+[pid: 4478|app: 0|req: 12/59] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:09 2019] GET /index => generated 21759 bytes in 183 msecs (HTTP/1.1 500) 4 headers in 129 bytes (0 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 13/60] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:09 2019] GET /index => generated 74264 bytes in 109 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 14/61] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:10 2019] GET /index => generated 74264 bytes in 110 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 19:59:38 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 15/62] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:41 2019] GET /index => generated 74264 bytes in 156 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 15/63] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:42 2019] GET /index => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 16/64] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:43 2019] GET /index => generated 74264 bytes in 173 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 17/65] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:44 2019] GET /index => generated 74264 bytes in 136 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 18/66] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:44 2019] GET /index => generated 74264 bytes in 171 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4476|app: 0|req: 4/67] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:45 2019] GET /index => generated 1957 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 16/68] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:46 2019] GET /index => generated 1957 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 19/69] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:46 2019] GET /index => generated 74264 bytes in 141 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 17/70] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:47 2019] GET /index => generated 1957 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 18/71] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:47 2019] GET /index => generated 1957 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 20/72] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:48 2019] GET /index => generated 74264 bytes in 178 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 19/73] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:49 2019] GET /index => generated 1957 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 21/74] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:49 2019] GET /index => generated 74264 bytes in 174 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4477|app: 0|req: 20/75] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:50 2019] GET /index => generated 1957 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /index
+[pid: 4476|app: 0|req: 5/76] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:51 2019] GET /index => generated 1957 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4478|app: 0|req: 22/77] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 11:59:52 2019] GET /index => generated 74264 bytes in 187 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./the_app/views.py", line 11, in index
+    return render(request,'index.html')
+  File "/home/pi/.local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[pid: 4479|app: 0|req: 31/78] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 12:00:06 2019] GET /index => generated 74264 bytes in 170 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 14, in files
+    filepaths=os.listdir('/home/pi/Desktop/static/')
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/'
+[pid: 4479|app: 0|req: 32/79] 192.168.43.117 () {42 vars in 807 bytes} [Sat Oct  5 12:00:11 2019] GET /files => generated 57134 bytes in 152 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Sat Oct  5 12:01:58 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:01:58 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:01:58 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:01:58 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 20:02:03 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1629bd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1629bd8 pid: 5414 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5414)
+spawned uWSGI worker 1 (pid: 5415, cores: 1)
+spawned uWSGI worker 2 (pid: 5416, cores: 1)
+spawned uWSGI worker 3 (pid: 5417, cores: 1)
+spawned uWSGI worker 4 (pid: 5418, cores: 1)
+[pid: 5416|app: 0|req: 1/1] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 12:02:10 2019] GET /files => generated 742 bytes in 155 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Internal Server Error: /download/
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 39, in download
+    response = HttpResponse(readFile(filepath_), content_type='APPLICATION/OCTET-STREAM') #设定文件头，这种设定可以让任意文件都能正确下载，而且已知文本文件不是本地打开
+  File "/home/pi/.local/lib/python3.7/site-packages/django/http/response.py", line 291, in __init__
+    self.content = content
+  File "/home/pi/.local/lib/python3.7/site-packages/django/http/response.py", line 314, in content
+    content = b''.join(self.make_bytes(chunk) for chunk in value)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/http/response.py", line 314, in <genexpr>
+    content = b''.join(self.make_bytes(chunk) for chunk in value)
+  File "./the_app/views.py", line 31, in readFile
+    f = open(fn, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pi/Desktop/staticvideo.mp4'
+[pid: 5418|app: 0|req: 1/2] 192.168.43.117 () {38 vars in 684 bytes} [Sat Oct  5 12:02:27 2019] GET /download/?filepath=video.mp4 => generated 74302 bytes in 243 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Sat Oct  5 12:04:28 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:04:28 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:04:28 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:04:28 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 20:04:37 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15a3bd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15a3bd8 pid: 5506 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5506)
+spawned uWSGI worker 1 (pid: 5507, cores: 1)
+spawned uWSGI worker 2 (pid: 5508, cores: 1)
+spawned uWSGI worker 3 (pid: 5509, cores: 1)
+spawned uWSGI worker 4 (pid: 5510, cores: 1)
+[pid: 5508|app: 0|req: 1/1] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 12:04:48 2019] GET /files => generated 742 bytes in 170 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 5509|app: 0|req: 1/2] 192.168.43.117 () {38 vars in 684 bytes} [Sat Oct  5 12:04:49 2019] GET /download/?filepath=video.mp4 => generated 54504324 bytes in 736 msecs (HTTP/1.1 200) 4 headers in 166 bytes (32 switches on core 0)
+[pid: 5509|app: 0|req: 2/3] 192.168.43.117 () {38 vars in 720 bytes} [Sat Oct  5 12:05:46 2019] GET /download/?filepath=apache-tomcat-8.5.31.tar.gz => generated 9552281 bytes in 992 msecs (HTTP/1.1 200) 4 headers in 173 bytes (2 switches on core 0)
+[pid: 5507|app: 0|req: 1/4] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 12:06:03 2019] GET /files => generated 742 bytes in 156 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 5508|app: 0|req: 2/5] 192.168.43.117 () {38 vars in 684 bytes} [Sat Oct  5 12:06:22 2019] GET /download/?filepath=video.mp4 => generated 54504324 bytes in 634 msecs (HTTP/1.1 200) 4 headers in 166 bytes (42 switches on core 0)
+[pid: 5510|app: 0|req: 1/6] 192.168.43.117 () {42 vars in 852 bytes} [Sat Oct  5 12:08:04 2019] GET /download/?filepath=video.mp4 => generated 54504324 bytes in 726 msecs (HTTP/1.1 200) 4 headers in 166 bytes (33 switches on core 0)
+[pid: 5510|app: 0|req: 2/7] 192.168.43.117 () {42 vars in 852 bytes} [Sat Oct  5 12:08:38 2019] GET /download/?filepath=video.mp4 => generated 54504324 bytes in 628 msecs (HTTP/1.1 200) 4 headers in 166 bytes (31 switches on core 0)
+Sat Oct  5 12:10:13 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:10:13 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:10:13 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct  5 12:10:13 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct  5 20:10:33 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x103fbd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x103fbd8 pid: 5685 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5685)
+spawned uWSGI worker 1 (pid: 5688, cores: 1)
+spawned uWSGI worker 2 (pid: 5689, cores: 1)
+spawned uWSGI worker 3 (pid: 5690, cores: 1)
+spawned uWSGI worker 4 (pid: 5691, cores: 1)
+[pid: 5691|app: 0|req: 1/1] 192.168.43.117 () {44 vars in 838 bytes} [Sat Oct  5 12:11:14 2019] GET /files => generated 742 bytes in 171 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 5691|app: 0|req: 2/2] 192.168.43.117 () {38 vars in 684 bytes} [Sat Oct  5 12:11:15 2019] GET /download/?filepath=video.mp4 => generated 54504324 bytes in 661 msecs (HTTP/1.1 200) 4 headers in 167 bytes (32 switches on core 0)
+[pid: 5691|app: 0|req: 3/3] 192.168.43.117 () {38 vars in 720 bytes} [Sat Oct  5 12:11:22 2019] GET /download/?filepath=apache-tomcat-8.0.52.tar.gz => generated 9435483 bytes in 972 msecs (HTTP/1.1 200) 4 headers in 174 bytes (4 switches on core 0)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            *** Starting uWSGI 2.0.18 (32bit) on [Mon Oct  7 18:54:08 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x198bbd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x198bbd8 pid: 2934 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2934)
+spawned uWSGI worker 1 (pid: 2936, cores: 1)
+spawned uWSGI worker 2 (pid: 2937, cores: 1)
+spawned uWSGI worker 3 (pid: 2938, cores: 1)
+spawned uWSGI worker 4 (pid: 2939, cores: 1)
+Not Found: /
+[pid: 2936|app: 0|req: 1/1] 192.168.43.117 () {42 vars in 796 bytes} [Mon Oct  7 10:54:16 2019] GET / => generated 2428 bytes in 156 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 2937|app: 0|req: 1/2] 192.168.43.117 () {42 vars in 742 bytes} [Mon Oct  7 10:54:17 2019] GET /favicon.ico => generated 2479 bytes in 90 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Internal Server Error: /files
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pi/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./the_app/views.py", line 15, in files
+    filepaths.remove('System Volume Information')
+ValueError: list.remove(x): x not in list
+[pid: 2936|app: 0|req: 2/3] 192.168.43.117 () {42 vars in 806 bytes} [Mon Oct  7 10:54:22 2019] GET /files => generated 57322 bytes in 143 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 2936|app: 0|req: 3/4] 192.168.43.117 () {42 vars in 806 bytes} [Mon Oct  7 10:55:25 2019] GET /index => generated 151 bytes in 75 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 1/5] 192.168.43.117 () {42 vars in 806 bytes} [Mon Oct  7 10:56:25 2019] GET /files => generated 287 bytes in 166 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 2/6] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:12 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 3/7] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:14 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 4/8] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:38 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 5/9] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:40 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 6/10] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:51 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 7/11] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 10:59:52 2019] GET /files => generated 288 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 8/12] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 11:01:09 2019] GET /files => generated 1595 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 9/13] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 11:01:11 2019] GET /files => generated 1595 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 10/14] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 11:02:16 2019] GET /files => generated 1411 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 2938|app: 0|req: 1/15] 192.168.43.117 () {44 vars in 837 bytes} [Mon Oct  7 11:03:06 2019] GET /files => generated 1411 bytes in 176 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /
+[pid: 2938|app: 0|req: 2/16] 192.168.43.117 () {42 vars in 796 bytes} [Mon Oct  7 11:05:36 2019] GET / => generated 2428 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 2939|app: 0|req: 11/17] 192.168.43.117 () {42 vars in 806 bytes} [Mon Oct  7 11:05:41 2019] GET /files => generated 1411 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/pi/Desktop/myweb/uwsgis
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8001)
+running /home/pi/.local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite.ini
+*** Starting uWSGI 2.0.18 (32bit) on [Mon Oct  7 13:36:27 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20ab588
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x20ab588 pid: 2934 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2934)
+spawned uWSGI worker 1 (pid: 5905, cores: 1)
+spawned uWSGI worker 2 (pid: 5906, cores: 1)
+spawned uWSGI worker 3 (pid: 5907, cores: 1)
+spawned uWSGI worker 4 (pid: 5908, cores: 1)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Oct 12 19:35:22 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1828bd8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1828bd8 pid: 1507 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1507)
+spawned uWSGI worker 1 (pid: 1508, cores: 1)
+spawned uWSGI worker 2 (pid: 1509, cores: 1)
+spawned uWSGI worker 3 (pid: 1510, cores: 1)
+spawned uWSGI worker 4 (pid: 1511, cores: 1)
+[pid: 1508|app: 0|req: 1/1] 192.168.43.117 () {44 vars in 839 bytes} [Sat Oct 12 11:35:27 2019] GET /index/ => generated 151 bytes in 187 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1508|app: 0|req: 2/2] 192.168.43.117 () {46 vars in 801 bytes} [Sat Oct 12 11:35:27 2019] GET /favicon.ico => generated 2479 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1510|app: 0|req: 1/3] 192.168.43.117 () {44 vars in 839 bytes} [Sat Oct 12 11:35:29 2019] GET /index/ => generated 151 bytes in 150 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 1508|app: 0|req: 3/4] 192.168.43.117 () {42 vars in 808 bytes} [Sat Oct 12 11:35:37 2019] GET /files/ => generated 1255 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:30:35 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb28bb8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./FileShare/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2313)
+spawned uWSGI worker 1 (pid: 2314, cores: 1)
+spawned uWSGI worker 2 (pid: 2315, cores: 1)
+spawned uWSGI worker 3 (pid: 2316, cores: 1)
+spawned uWSGI worker 4 (pid: 2317, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/1] 192.168.199.205 () {42 vars in 682 bytes} [Sat Nov  9 13:30:39 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/2] 192.168.199.205 () {44 vars in 651 bytes} [Sat Nov  9 13:30:40 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/3] 192.168.199.205 () {42 vars in 682 bytes} [Sat Nov  9 13:30:40 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/4] 192.168.199.205 () {44 vars in 651 bytes} [Sat Nov  9 13:30:41 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/5] 192.168.199.205 () {40 vars in 661 bytes} [Sat Nov  9 13:30:50 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/6] 192.168.199.205 () {40 vars in 603 bytes} [Sat Nov  9 13:30:51 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/7] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:31:35 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/8] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:31:35 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/9] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:31:36 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/10] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:31:36 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:32:15 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/11] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:32:20 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/12] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:32:20 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/13] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:32:21 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/14] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:32:21 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/15] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:32:21 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/16] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:32:21 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:33:36 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/17] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:33:59 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/18] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:33:59 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/19] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:02 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/20] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:02 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/21] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:21 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/22] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:21 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/23] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:22 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/24] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:22 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/25] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:38 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/26] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:38 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/27] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:51 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/28] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:51 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/29] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:51 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/30] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:51 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2314|app: -1|req: -1/31] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:34:54 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/32] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:34:54 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:35:09 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/33] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:35:13 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/34] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:35:13 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/35] 192.168.199.205 () {42 vars in 692 bytes} [Sat Nov  9 13:35:13 2019] GET /index => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2317|app: -1|req: -1/36] 192.168.199.205 () {44 vars in 656 bytes} [Sat Nov  9 13:35:14 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 2314)...
+Gracefully killing worker 4 (pid: 2317)...
+Gracefully killing worker 3 (pid: 2316)...
+Gracefully killing worker 2 (pid: 2315)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/pi/Desktop/myweb/uwsgis
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8001)
+running /home/pi/.local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite.ini
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:37:07 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+detected binary path: /home/pi/.local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1777660
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./FileShare/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2313)
+spawned uWSGI worker 1 (pid: 2633, cores: 1)
+spawned uWSGI worker 2 (pid: 2634, cores: 1)
+spawned uWSGI worker 3 (pid: 2635, cores: 1)
+spawned uWSGI worker 4 (pid: 2636, cores: 1)
+Sat Nov  9 13:38:36 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  9 13:38:36 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  9 13:38:36 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 13:40:50 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1cd0bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1cd0bc0 pid: 831 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 831)
+spawned uWSGI worker 1 (pid: 832, cores: 1)
+spawned uWSGI worker 2 (pid: 833, cores: 1)
+spawned uWSGI worker 3 (pid: 834, cores: 1)
+spawned uWSGI worker 4 (pid: 835, cores: 1)
+Not Found: /
+[pid: 833|app: 0|req: 1/1] 192.168.199.205 () {42 vars in 682 bytes} [Sat Nov  9 05:40:54 2019] GET / => generated 2429 bytes in 145 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 833|app: 0|req: 2/2] 192.168.199.205 () {44 vars in 651 bytes} [Sat Nov  9 05:40:54 2019] GET /favicon.ico => generated 2480 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 835|app: 0|req: 1/3] 192.168.199.205 () {40 vars in 661 bytes} [Sat Nov  9 05:41:00 2019] GET /index => generated 151 bytes in 198 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Gracefully killing worker 2 (pid: 833)...
+...brutally killing workers...
+worker 2 buried after 0 seconds
+worker 1 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/pi/Desktop/myweb/uwsgis
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8001)
+running /home/pi/.local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite.ini
+*** Starting uWSGI 2.0.18 (32bit) on [Sat Nov  9 05:44:18 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12f2588
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x12f2588 pid: 831 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 831)
+spawned uWSGI worker 1 (pid: 926, cores: 1)
+spawned uWSGI worker 2 (pid: 927, cores: 1)
+spawned uWSGI worker 3 (pid: 928, cores: 1)
+spawned uWSGI worker 4 (pid: 929, cores: 1)
+*** Starting uWSGI 2.0.18 (32bit) on [Mon Dec 16 11:32:42 2019] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Apr  3 2019, 05:39:12)  [GCC 8.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13f0bc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x13f0bc0 pid: 853 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 853)
+spawned uWSGI worker 1 (pid: 856, cores: 1)
+spawned uWSGI worker 2 (pid: 857, cores: 1)
+spawned uWSGI worker 3 (pid: 858, cores: 1)
+spawned uWSGI worker 4 (pid: 859, cores: 1)
+[pid: 856|app: 0|req: 1/1] 192.168.199.205 () {40 vars in 661 bytes} [Mon Dec 16 03:32:51 2019] GET /index => generated 151 bytes in 180 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 856|app: 0|req: 2/2] 192.168.199.205 () {40 vars in 603 bytes} [Mon Dec 16 03:32:51 2019] GET /favicon.ico => generated 2480 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 856|app: 0|req: 3/3] 192.168.199.205 () {40 vars in 661 bytes} [Mon Dec 16 03:38:14 2019] GET /files => generated 427 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 856|app: 0|req: 4/4] 192.168.199.205 () {40 vars in 661 bytes} [Mon Dec 16 15:49:28 2019] GET /index => generated 151 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 856|app: 0|req: 5/5] 192.168.199.205 () {40 vars in 603 bytes} [Mon Dec 16 15:49:28 2019] GET /favicon.ico => generated 2480 bytes in 21 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 856|app: 0|req: 6/6] 192.168.199.236 () {40 vars in 685 bytes} [Mon Dec 16 16:07:12 2019] GET / => generated 2429 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 856|app: 0|req: 7/7] 192.168.199.236 () {40 vars in 665 bytes} [Mon Dec 16 16:07:12 2019] GET /favicon.ico => generated 2480 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 857|app: 0|req: 1/8] 192.168.199.236 () {40 vars in 695 bytes} [Mon Dec 16 16:07:24 2019] GET /files => generated 588 bytes in 157 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 856|app: 0|req: 8/9] 192.168.199.205 () {40 vars in 661 bytes} [Tue Dec 17 02:49:15 2019] GET /index => generated 151 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 857|app: 0|req: 2/10] 192.168.199.205 () {40 vars in 603 bytes} [Tue Dec 17 02:49:15 2019] GET /favicon.ico => generated 2480 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 857|app: 0|req: 3/11] 192.168.199.205 () {40 vars in 661 bytes} [Tue Dec 17 02:49:31 2019] GET /files => generated 588 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Mon Feb 22 22:44:45 2021] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, Jul 25 2020, 13:03:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17d3bd8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./FileShare/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20305)
+spawned uWSGI worker 1 (pid: 20306, cores: 1)
+spawned uWSGI worker 2 (pid: 20307, cores: 1)
+spawned uWSGI worker 3 (pid: 20308, cores: 1)
+spawned uWSGI worker 4 (pid: 20309, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/1] 192.168.199.197 () {40 vars in 726 bytes} [Mon Feb 22 22:45:32 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/2] 192.168.199.197 () {40 vars in 667 bytes} [Mon Feb 22 22:45:32 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/3] 192.168.199.197 () {40 vars in 674 bytes} [Mon Feb 22 22:45:38 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/4] 192.168.199.197 () {40 vars in 683 bytes} [Mon Feb 22 22:46:01 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/5] 192.168.199.136 () {40 vars in 650 bytes} [Mon Feb 22 22:47:47 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/6] 192.168.199.136 () {40 vars in 616 bytes} [Mon Feb 22 22:47:47 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/7] 192.168.199.136 () {40 vars in 632 bytes} [Mon Feb 22 22:48:51 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/8] 192.168.199.136 () {40 vars in 650 bytes} [Mon Feb 22 22:54:26 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/9] 192.168.199.136 () {40 vars in 650 bytes} [Mon Feb 22 22:54:33 2021] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/10] 192.168.199.136 () {40 vars in 758 bytes} [Mon Feb 22 22:55:53 2021] GET /apple-touch-icon-precomposed.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20309|app: -1|req: -1/11] 192.168.199.136 () {40 vars in 734 bytes} [Mon Feb 22 22:55:53 2021] GET /apple-touch-icon.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20306|app: -1|req: -1/12] 192.168.199.136 () {40 vars in 716 bytes} [Mon Feb 22 22:55:53 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/13] 192.168.199.136 () {38 vars in 563 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-152x152-precomposed.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20306|app: -1|req: -1/14] 192.168.199.136 () {38 vars in 539 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-152x152.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/15] 192.168.199.136 () {38 vars in 547 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-precomposed.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/16] 192.168.199.136 () {38 vars in 523 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20306|app: -1|req: -1/17] 192.168.199.136 () {38 vars in 505 bytes} [Mon Feb 22 22:55:58 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/18] 192.168.199.136 () {38 vars in 563 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-152x152-precomposed.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/19] 192.168.199.136 () {38 vars in 539 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-152x152.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/20] 192.168.199.136 () {38 vars in 547 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon-precomposed.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/21] 192.168.199.136 () {38 vars in 523 bytes} [Mon Feb 22 22:55:58 2021] GET /apple-touch-icon.png => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20306|app: -1|req: -1/22] 192.168.199.136 () {38 vars in 505 bytes} [Mon Feb 22 22:55:58 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/23] 192.168.199.136 () {40 vars in 634 bytes} [Mon Feb 22 23:31:50 2021] GET /favicon.ico => generated 21 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/24] 192.168.199.136 () {40 vars in 634 bytes} [Mon Feb 22 23:32:09 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20307|app: -1|req: -1/25] 192.168.199.136 () {40 vars in 634 bytes} [Mon Feb 22 23:32:56 2021] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 3 (pid: 20308)...
+Gracefully killing worker 1 (pid: 20306)...
+Gracefully killing worker 2 (pid: 20307)...
+Gracefully killing worker 4 (pid: 20309)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/pi/Desktop/myweb/uwsgis
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8001)
+running /home/pi/.local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite.ini
+*** Starting uWSGI 2.0.18 (32bit) on [Sun Feb 28 00:11:19 2021] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-4.19.75-v7l+ #1271 SMP Mon Sep 30 13:51:15 BST 2019
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+detected binary path: /home/pi/.local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28771
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 (default, Jul 25 2020, 13:03:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2058680
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./FileShare/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 20305)
+spawned uWSGI worker 1 (pid: 5318, cores: 1)
+spawned uWSGI worker 2 (pid: 5319, cores: 1)
+spawned uWSGI worker 3 (pid: 5320, cores: 1)
+spawned uWSGI worker 4 (pid: 5321, cores: 1)
+*** Starting uWSGI 2.0.18 (32bit) on [Sun Feb 28 01:39:12 2021] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/myweb/uwsgis
+writing pidfile to /home/pi/Desktop/myweb/uwsgis/master.pid
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/Desktop/myweb/FileShare
+your processes number limit is 28143
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+Python version: 3.7.3 (default, Jul 25 2020, 13:03:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe53be0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 322000 bytes (314 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe53be0 pid: 1125 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1125)
+spawned uWSGI worker 1 (pid: 1127, cores: 1)
+spawned uWSGI worker 2 (pid: 1128, cores: 1)
+spawned uWSGI worker 3 (pid: 1129, cores: 1)
+spawned uWSGI worker 4 (pid: 1130, cores: 1)
+Not Found: /
+[pid: 1128|app: 0|req: 1/1] 192.168.199.197 () {40 vars in 726 bytes} [Sat Feb 27 17:39:53 2021] GET / => generated 2429 bytes in 144 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1129|app: 0|req: 1/2] 192.168.199.197 () {40 vars in 667 bytes} [Sat Feb 27 17:39:54 2021] GET /favicon.ico => generated 2480 bytes in 77 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1127|app: 0|req: 1/3] 192.168.199.197 () {40 vars in 683 bytes} [Sat Feb 27 17:40:15 2021] GET /favicon.ico => generated 2480 bytes in 118 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1127|app: 0|req: 2/4] 192.168.199.197 () {40 vars in 695 bytes} [Sat Feb 27 17:40:53 2021] GET /favicon.ico => generated 2480 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1128|app: 0|req: 2/5] 192.168.199.197 () {40 vars in 726 bytes} [Sun Feb 28 07:56:20 2021] GET / => generated 2429 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1130|app: 0|req: 1/6] 192.168.199.197 () {40 vars in 667 bytes} [Sun Feb 28 07:56:20 2021] GET /favicon.ico => generated 2480 bytes in 108 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1129|app: 0|req: 2/7] 192.168.199.197 () {40 vars in 726 bytes} [Sun Feb 28 14:05:26 2021] GET / => generated 2429 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1130|app: 0|req: 2/8] 192.168.199.197 () {40 vars in 667 bytes} [Sun Feb 28 14:05:26 2021] GET /favicon.ico => generated 2480 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (32bit) on [Sun Feb 28 22:06:57 2021] ***
+compiled with version: 8.3.0 on 16 July 2019 12:06:45
+os: Linux-5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/Desktop/raspberry-file-server/uwsgis
+writing pidfile to uwsgis/master.pid
+open("uwsgis/master.pid"): No such file or directory [core/utils.c line 3616]
+Not Found: /
+[pid: 1130|app: 0|req: 3/9] 192.168.199.197 () {42 vars in 757 bytes} [Sun Feb 28 14:07:20 2021] GET / => generated 2429 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1130|app: 0|req: 4/10] 192.168.199.197 () {42 vars in 757 bytes} [Sun Feb 28 14:09:04 2021] GET / => generated 2429 bytes in 21 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)

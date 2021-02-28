@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>文件下载</title>
+</head>
+<body>
+    {% for file in files %}
+    <!-- <h3><a href="/download/?filepath={{file}}" download={{file}}>{{file}}</a></h3> -->
+    <h3><a href="/static/{{file}}">{{file}}</a></h3> 
+    {% endfor %}
+</body>
+</html>
